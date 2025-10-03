@@ -42,6 +42,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define SPLIT_TRANSACTION_IDS_KB KEYBALL_GET_INFO, KEYBALL_GET_MOTION, KEYBALL_SET_CPI
 
+// TAPPING TERM
+#define TAPPING_TERM 150
+
 // RGB LED settings
 #define WS2812_DI_PIN       D3
 #ifdef RGBLIGHT_ENABLE
